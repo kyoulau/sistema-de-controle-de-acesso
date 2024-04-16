@@ -1,0 +1,4 @@
+lau,b'$2b$12$68dgXI6/A7.qwkOAV4NDxORmyK0K3HYCtySl73ND3QFW3aZWSPZgO'
+dede,b'$2b$12$qcw57gfQumxthHCkx.zYF.iBFmR4PQ0We6PzJUVocKLi5xwDLM4xK'
+bb,b'$2b$12$qNMIojUr1NyPA0SO2SmYqe52TDn5QIIlppypyLqFpDbx5l8xD.7wi'
+bla,b'$2b$12$4qItw.wkIOcrs7Uq7EYIH.WUK4f7/S2QUXD1oeWHQPBlzpLnaODbq'
