@@ -1,7 +1,3 @@
-# OK programa inicial solicitado ações para o usuario de: 1- cadastrar 2-Autenticar 3-sair
-    # OK Ao cadastrar o usuario executa a funcao de cadastrar, e tem sua senha criptografada.
-    # OK Ao autenticar, usuario entra com suas credenciais (login)
-    # OK Ao sair, o programa encerra, mensagem de "até logo !"
 
 # - Se estiver autenticado e as senhas forem corrtas:
     # #  - sistema pergunta quais ações vai fazer:
@@ -22,3 +18,5 @@
                 #sair
     #se não for
         #"Usuário ou senha inválidos"
+
+#ler,editar,excluir
