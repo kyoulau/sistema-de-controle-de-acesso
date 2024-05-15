@@ -20,10 +20,13 @@ def opcao_cadastrar():
     password = getpass.getpass("Digite a senha").encode('utf-8')
     salt = bcrypt.gensalt()
     hash_password = bcrypt.hashpw(password, salt)
+    arquivos = os.listdir()
     with open("credenciais.txt", "a") as arquivo:
         arquivo.write(f"{username},{hash_password}\n")
+
     with open("permissoes.txt", "a") as arquivo_permissoes:
-        arquivo_permissoes.write(f"{username},{per1},{per2},{per3}\n")
+        for arquivo in arquivos:
+            arquivo_permissoes.write(f"{username},{arquivo},{per1},{per2},{per3}\n")
     print("Cadastro feito com sucesso!")
     return hash_password, username, per1, per2, per3
 
@@ -93,7 +96,7 @@ def listar_opcoes():
                 linhas = permissoes2.readlines()
                 for linha in linhas:
                     acesso = linha.strip().split(",")
-                    if acesso[1] == '1':
+                    if  len(acesso) >= 4 and  acesso[2] == '1':
                         validacao = True
                         break
             if validacao:
@@ -116,7 +119,7 @@ def listar_opcoes():
                 validacao = False
                 for linha in linhas:
                     acesso = linha.strip().split(",")
-                    if acesso[3] == '1':
+                    if len(acesso) >= 4 and acesso[4] == '1':
                         validacao=True
                         os.remove(nome_arquivo)
                         print(f"O arquivo '{nome_arquivo}' foi excluído com sucesso!")

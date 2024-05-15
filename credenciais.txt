@@ -1,5 +1,2 @@
-
-laura,b'$2b$12$XWYwt4WqUq.lBZK76WcMGeFqln3mbTwGeyOYrfu.8oRtlpgR5Ur96'
-laurinha,b'$2b$12$6Ml6/d5FwrkvSx4qZnKDxePD7QiVlbavxmHdbt/KXyiheGGgKGWYi'
-dudu,b'$2b$12$VxvqKGrDipt8YyscLONtjODSAX0P8bY0KAQ/vHhQBaH2n9IiWUjBm'
-tatu,b'$2b$12$mg6pvcWRKM96f5bJruLikeaEIFy3S/RQTiN.X8HDLnWO2EDVy.BiC'
+laura,b'$2b$12$5Gs4c4jVg9DnwaR/6CiIOenGo/FBDWXKEuV2cFm6LPnNydSUgZM.i'
+joao,b'$2b$12$ejEb4l04iaZzpC435dp6DOoQ3RV0ciB1NX1uL63p.DcA0gaX1R3HK'
